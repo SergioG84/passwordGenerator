@@ -30,7 +30,7 @@ for randomLetter in range(1, letterLength + 1):
 for randomNumber in range(1, numberLength + 1):
     password.append(random.choice(numbers))
 
-for randomSymbol in range(1, symbolLength):
+for randomSymbol in range(1, symbolLength + 1):
     password.append(random.choice(symbols))
 
 # Shuffle password characters around
